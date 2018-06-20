@@ -2,70 +2,46 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="140beae2-1af4-4738-a398-31a602f5d0ea" name="Default" comment="">
-      <change afterPath="$PROJECT_DIR$/src/App/AddTag/AddTag.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App/AddTag/AddTagContainer.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App/AddTag/TagInput.jsx" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/src/App/AddTag/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Admin.rfex.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/App.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/App.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/DropZone.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/EventGrid3.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/NewEvent.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/Tags.jsx" beforeDir="false" afterPath="$PROJECT_DIR$/src/App/Tags.jsx" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/UploadImage.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/App/UploadImage2.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Avatar/Avatar.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Avatar/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Body1/Body1.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Body1/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Button/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Button/style.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Callout/Callout.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Callout/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Caption/Caption.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Caption/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Code/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Curly/index.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/H1/H1.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/H1/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/H2/H2.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/H2/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/H3/H3.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/H3/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/H4/H4.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/H4/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/H5/H5.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/H5/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Headline/Headline.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Headline/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/HorizontalLine/HorizontalLine.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/HorizontalLine/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/P/P.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/P/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Pre/Pre.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Pre/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/SampleRect/BackgroundSamples.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/SampleRect/SampleRect.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/SampleRect/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Section/Section.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Section/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/SubHeading/SubHeading.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/SubHeading/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/TD/TD.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/TD/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/TH/TH.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/TH/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/TR/TR.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/TR/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Table/Table.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Table/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/TextFieldComp/TextFieldComp.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/TextFieldComp/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Title/Title.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/Title/index.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/xx.FontTest/FontTest.jsx" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/src/elements/xx.FontTest/index.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.eslintrc-strict" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/initial-ui-thoughts/IMG_20180604_114201473.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/initial-ui-thoughts/IMG_20180604_114209837.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/initial-ui-thoughts/IMG_20180604_114213564.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/initial-ui-thoughts/IMG_20180604_114219605.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/initial-ui-thoughts/IMG_20180604_114222413.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/doc/style-guide-sortof/rem-and-px.ods" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/eslintrc-src" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/package-copy.json" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/colors.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Lato/Lato-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Lato/Lato-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Lato/Lato-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Lato/Lato-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Lato/Lato-Hairline.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Lato/Lato-HairlineItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Lato/Lato-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Lato/Lato-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Lato/Lato-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Lato/Lato-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Lato/OFL.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto/LICENSE.txt" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto/Roboto-Black.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto/Roboto-BlackItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto/Roboto-Bold.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto/Roboto-BoldItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto/Roboto-Italic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto/Roboto-Light.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto/Roboto-LightItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto/Roboto-Medium.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto/Roboto-MediumItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto/Roboto-Regular.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto/Roboto-Thin.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/fonts/Roboto/Roboto-ThinItalic.ttf" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/media/briia.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/media/holistic.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/media/reunion.png" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/media/summer-unlocked.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/media/whatif.jpg" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/src/mock-data/card-data.js" beforeDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -114,8 +90,8 @@
           <file leaf-file-name="AddTagContainer.jsx" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/App/AddTag/AddTagContainer.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="285">
-                  <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
+                <state relative-caret-position="420">
+                  <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
                   </folding>
@@ -142,8 +118,8 @@
           <file leaf-file-name="TagInput.jsx" pinned="false" current-in-tab="true">
             <entry file="file://$PROJECT_DIR$/src/App/AddTag/TagInput.jsx">
               <provider selected="true" editor-type-id="text-editor">
-                <state relative-caret-position="393">
-                  <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+                <state relative-caret-position="408">
+                  <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
                   <folding>
                     <element signature="e#0#25#0" expanded="true" />
                   </folding>
@@ -254,13 +230,6 @@
               <item name="tags-ui" type="b2602c69:ProjectViewProjectNode" />
               <item name="tags-ui" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
-              <item name="App" type="462c0819:PsiDirectoryNode" />
-              <item name="AddTag" type="462c0819:PsiDirectoryNode" />
-            </path>
-            <path>
-              <item name="tags-ui" type="b2602c69:ProjectViewProjectNode" />
-              <item name="tags-ui" type="462c0819:PsiDirectoryNode" />
-              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="elements" type="462c0819:PsiDirectoryNode" />
             </path>
           </expand>
@@ -329,16 +298,15 @@
       <workItem from="1529295244774" duration="2367000" />
       <workItem from="1529331832724" duration="157000" />
       <workItem from="1529416084666" duration="11081000" />
-      <workItem from="1529442405492" duration="9158000" />
+      <workItem from="1529442405492" duration="9445000" />
     </task>
     <servers />
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="22763000" />
+    <option name="totallyTimeSpent" value="23050000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="0" y="0" width="1920" height="1080" extended-state="6" />
-    <editor active="true" />
     <layout>
       <window_info anchor="bottom" id="TODO" order="6" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
@@ -571,16 +539,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/src/App/AddTag/AddTagContainer.jsx">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="285">
-          <caret line="19" column="10" lean-forward="true" selection-start-line="19" selection-start-column="10" selection-end-line="19" selection-end-column="10" />
-          <folding>
-            <element signature="e#0#25#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/src/App/AddTag/AddTag.jsx">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="375">
@@ -593,8 +551,18 @@
     </entry>
     <entry file="file://$PROJECT_DIR$/src/App/AddTag/TagInput.jsx">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="393">
-          <caret line="29" column="16" selection-start-line="29" selection-start-column="16" selection-end-line="29" selection-end-column="16" />
+        <state relative-caret-position="408">
+          <caret line="30" column="3" lean-forward="true" selection-start-line="30" selection-start-column="3" selection-end-line="30" selection-end-column="3" />
+          <folding>
+            <element signature="e#0#25#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/src/App/AddTag/AddTagContainer.jsx">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="28" column="11" lean-forward="true" selection-start-line="28" selection-start-column="11" selection-end-line="28" selection-end-column="11" />
           <folding>
             <element signature="e#0#25#0" expanded="true" />
           </folding>
