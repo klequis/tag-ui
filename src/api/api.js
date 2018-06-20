@@ -45,7 +45,7 @@ export default {
   },
   tags: {
     async create(tag) {
-      pink('tag', tag)
+      pink('api.tags.create: tag', tag)
       const data = await fetchJson(
         '/tags',
         {
@@ -54,6 +54,16 @@ export default {
         }
       )
       return data
-    }
+    },
+    async delete(_id) {
+      pink('api.tags.delete: _id', _id)
+      const data = await fetchJson(
+        `/tags/${_id}`,
+        {
+          method: 'DELETE',
+        }
+      )
+      return data
+    },
   }
 }

@@ -4,7 +4,7 @@ import {withStyles} from '@material-ui/core/styles'
 import Avatar from '@material-ui/core/Avatar'
 import Chip from '@material-ui/core/Chip'
 import Paper from '@material-ui/core/Paper'
-import AddCircle from '@material-ui/icons/AddCircle'
+// import AddCircle from '@material-ui/icons/AddCircle'
 // import AddCircleOutline from '@material-ui/icons/AddCircleOutline'
 import { compose } from 'recompose'
 import { connect } from 'react-redux'
@@ -29,24 +29,17 @@ const styles = theme => ({
   }
 })
 
-class ChipsArray extends React.Component {
+class Tags extends React.Component {
 
-  handleDelete = data => () => {
-    if (data.label === 'React') {
-      alert('Why would you want to delete React?! :)') // eslint-disable-line no-alert
-      return
-    }
+  handleDelete = (tag) => {
+    green('handleDelete: data', tag)
 
-    const chipData = [...this.state.chipData]
-    const chipToDelete = chipData.indexOf(data)
-    chipData.splice(chipToDelete, 1)
-    this.setState({chipData})
   }
 
 
   render() {
     const {classes, events} = this.props
-    const chips = events.map(event => {
+    const tags = events.map(event => {
       return (
         <div className={classes.chipRow} key={event._id}>
           {
@@ -67,14 +60,14 @@ class ChipsArray extends React.Component {
     })
     return (
       <Paper className={classes.root}>
-        {chips}
+        {tags}
 
       </Paper>
     )
   }
 }
 
-ChipsArray.propTypes = {
+Tags.propTypes = {
   classes: PropTypes.object.isRequired,
 }
 
@@ -87,5 +80,5 @@ const mapStateToProps = (state) => {
 export default compose(
   withStyles(styles),
   connect(mapStateToProps, tagActions)
-)(ChipsArray)
+)(Tags)
 
